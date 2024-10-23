@@ -1,0 +1,134 @@
+@font-face {
+    font-family: '辰宇落雁體';
+    src: url('fonts/ChenYuluoyan-Thin-Monospaced.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: '思源黑體';
+    src: url('fonts/NotoSansTC-Medium.ttf') format('truetype');
+}
+
+* {
+    font-family: 思源黑體;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
+    background-color: #E6A031;
+    height: 80px;
+    width: 100%;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header ul {
+    position: absolute;
+    right: 3vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header h1 {
+    color: black;
+    font-size: 42px;
+    position: absolute;
+    left: 60px;
+    top: 0;
+    line-height: 80px;
+}
+
+footer {
+    background-color: black;
+    color: #B7B7B7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.design {
+    background-color: antiquewhite;
+    color: white;
+    height: 85vh;
+    background-image: url('image/cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.introduction {
+    background-color: #edbc6f;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.info p {
+    font-size: 24px;
+}
+
+.kind {
+    display: flex;
+    background-color: #ffdca7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 180px 80px;
+}
+
+.kind div {
+    width: 200px;
+    text-align: center;
+}
+
+.kind img {
+    width: 100%;
+}
+
+.kind h3 {
+    font-family: '辰宇落雁體';
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+.canvas {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: auto;
+}
